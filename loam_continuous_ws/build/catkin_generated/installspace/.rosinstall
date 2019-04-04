@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/wpr/LaserSlam/loam_continuous_ws/install/setup.sh

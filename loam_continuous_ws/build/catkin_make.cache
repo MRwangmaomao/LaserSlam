@@ -1,0 +1,2 @@
+loam_continuous
+-DCATKIN_DEVEL_PREFIX=/home/wpr/LaserSlam/loam_continuous_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wpr/LaserSlam/loam_continuous_ws/install -G Unix Makefiles
