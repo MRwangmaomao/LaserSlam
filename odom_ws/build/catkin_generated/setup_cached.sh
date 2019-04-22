@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/wpr/LaserSlam/odom_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/wpr/LaserSlam/odom_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/wpr/LaserSlam/odom_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/wpr/LaserSlam/odom_ws/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/wpr/LaserSlam/odom_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/wpr/LaserSlam/odom_ws/src:/home/wpr/code/catkin_grad/src:/home/wpr/code/catkin_turtle/src:/home/wpr/code/ORB_SLAM2_Map_Catkin/Examples/ROS/ORB_SLAM2_Map/src:/home/wpr/code/ORB_SLAM2_Map/Examples/ROS/ORB_SLAM2_Map:/home/wpr/code/ORB_SLAM2/Examples/ROS/ORB_SLAM2:/home/wpr/code/catkin_kobuki/src:/home/wpr/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"
+export CMAKE_PREFIX_PATH="/home/wpr/code/LaserSlam/odom_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/wpr/code/LaserSlam/odom_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/wpr/code/LaserSlam/odom_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/wpr/code/LaserSlam/odom_ws/src:$ROS_PACKAGE_PATH"

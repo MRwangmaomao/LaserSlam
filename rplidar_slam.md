@@ -37,3 +37,8 @@ cartographer有用的参考文献和代码核心结构
 
 [Karto_slam/cartographer/ROS试跑激光雷达数据集](https://blog.csdn.net/qq_24894159/article/details/81175656)
 
+[cartographer源码分析](https://blog.csdn.net/qq_29230261/article/details/85242460)
+
+[cartographer代码及论文分析](https://blog.csdn.net/MyArrow/article/details/80306816)
+
+[代码注释](https://github.com/sunkaianna/cartographer-1)

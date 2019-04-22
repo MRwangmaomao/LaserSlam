@@ -1,8 +1,8 @@
-# Install script for directory: /home/wpr/LaserSlam/odom_ws/src/calib_odom
+# Install script for directory: /home/wpr/code/LaserSlam/odom_ws/src/calib_odom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wpr/LaserSlam/odom_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/wpr/code/LaserSlam/odom_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wpr/LaserSlam/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odom.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wpr/code/LaserSlam/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odom.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calib_odom/cmake" TYPE FILE FILES
-    "/home/wpr/LaserSlam/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odomConfig.cmake"
-    "/home/wpr/LaserSlam/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odomConfig-version.cmake"
+    "/home/wpr/code/LaserSlam/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odomConfig.cmake"
+    "/home/wpr/code/LaserSlam/odom_ws/build/calib_odom/catkin_generated/installspace/calib_odomConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calib_odom" TYPE FILE FILES "/home/wpr/LaserSlam/odom_ws/src/calib_odom/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/calib_odom" TYPE FILE FILES "/home/wpr/code/LaserSlam/odom_ws/src/calib_odom/package.xml")
 endif()
 

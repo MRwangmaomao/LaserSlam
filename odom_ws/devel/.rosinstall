@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/wpr/LaserSlam/odom_ws/devel/setup.sh
+    local-name: /home/wpr/code/LaserSlam/odom_ws/devel/setup.sh
